@@ -1,3 +1,4 @@
+# Added second commit to explain API logic
 from flask import Flask, request, jsonify, render_template
 from datetime import datetime
 from extensions import db        
