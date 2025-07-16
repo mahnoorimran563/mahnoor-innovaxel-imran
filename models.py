@@ -1,7 +1,6 @@
 from datetime import datetime
 from extensions import db  
 
-
 class URL(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     url = db.Column(db.String(500), nullable=False)
